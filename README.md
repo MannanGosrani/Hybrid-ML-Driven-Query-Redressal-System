@@ -62,7 +62,8 @@ Poulami Das
 MIT License  
 You may use, modify, and distribute this project with proper attribution.
 
-## Setup Instructions
+## Setup Instructions 
+- Go through the SETUP.md file
 
 ### Clone Repository
 ```bash
