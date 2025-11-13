@@ -19,6 +19,9 @@ This project implements a Hybrid Machine Learning–based Query Redressal System
 
 ### Frontend
 - React  
+- Vite  
+- Tailwind CSS  
+- Axios
 
 ### Backend
 - Supabase for Database
