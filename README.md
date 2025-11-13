@@ -1,62 +1,73 @@
-# Hybrid ML-Driven Query Redressal System
+# Welcome to your Lovable project
 
-Live Demo: https://nmims-grievance.vercel.app/
+## Project info
 
-## Overview
-This project implements a Hybrid Machine Learning–based Query Redressal System designed for higher educational institutions. It automates the classification of student grievances, routes them to the appropriate department, and provides dedicated interfaces for both students and administrators. The system uses Logistic Regression, Random Forest, and Support Vector Machine models combined through a hybrid ensemble to enhance accuracy and robustness. The platform is scalable, deployment-ready, and built for real-world academic use.
+**URL**: https://lovable.dev/projects/c52b6d37-1a10-4398-b078-7ab49976dfc8
 
-## Features
-- Automated classification of student queries using hybrid ML models  
-- Ensemble of LR, RF, and SVM for improved accuracy  
-- Student portal to submit grievances and track their status  
-- Admin dashboard for managing, categorizing, and resolving grievances  
-- Real-time status updates and notifications  
-- Secure and modular backend API built with Flask  
-- Clean and responsive UI developed using React and Tailwind CSS  
-- Architecture designed for easy model retraining and future updates  
+## How can I edit this code?
 
-## Tech Stack
+There are several ways of editing your application.
 
-### Frontend
-- React  
-- Vite  
-- Tailwind CSS  
-- Axios
+**Use Lovable**
 
-### Backend
-- Supabase for Database
-- API hosted on huggingface
+Simply visit the [Lovable Project](https://lovable.dev/projects/c52b6d37-1a10-4398-b078-7ab49976dfc8) and start prompting.
 
-### Deployment
-- Vercel   
+Changes made via Lovable will be committed automatically to this repo.
 
-## Machine Learning Workflow
-- Text cleaning and preprocessing  
-- TF-IDF vectorization for textual data  
-- Training three separate ML classifiers  
-- Hybrid ensemble prediction using weighted or majority voting  
-- Exported `.pkl` models for production-ready inference  
-- Evaluation using accuracy and confusion matrix  
+**Use your preferred IDE**
 
-## Use Cases
-- Automating institutional grievance handling  
-- Categorizing student issues for improved routing  
-- Reducing administrative workload  
-- Increasing transparency and response efficiency  
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-## Contributors
-Jignesh Desai  
-Rachit Khatri  
-Jahnvi Arora  
-Mannan Gosrani  
-Poulami Das  
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## License
-MIT License  
-You may use, modify, and distribute this project with proper attribution.
+Follow these steps:
 
-## Setup Instructions
-### Clone Repository
-```bash
-git clone https://github.com/your-username/Hybrid-ML-Driven-Query-Redressal-System.git
-cd Hybrid-ML-Driven-Query-Redressal-System
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/c52b6d37-1a10-4398-b078-7ab49976dfc8) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
