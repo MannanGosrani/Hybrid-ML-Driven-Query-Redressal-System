@@ -11,7 +11,7 @@ This project implements a Hybrid Machine Learning–based Query Redressal System
 - Student portal to submit grievances and track their status  
 - Admin dashboard for managing, categorizing, and resolving grievances  
 - Real-time status updates and notifications  
-- Secure and modular backend API built with Flask  
+- Secure and modular backend API   
 - Clean and responsive UI developed using React and Tailwind CSS  
 - Architecture designed for easy model retraining and future updates  
 
