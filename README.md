@@ -19,23 +19,13 @@ This project implements a Hybrid Machine Learning–based Query Redressal System
 
 ### Frontend
 - React  
-- Vite  
-- Tailwind CSS  
-- Axios  
 
 ### Backend
-- Flask (Python)  
-- Scikit-learn  
-- Pandas / NumPy  
-- TF-IDF vectorizer  
-- Machine Learning models (LR, RF, SVM)  
-
-### Database
-- MongoDB Atlas  
+- Supabase for Database
+- API hosted on huggingface
 
 ### Deployment
-- Vercel (Frontend)  
-- Backend on Render / Railway / Local Flask server  
+- Vercel   
 
 ## Machine Learning Workflow
 - Text cleaning and preprocessing  
